@@ -1,0 +1,229 @@
+/* welcome */
+div#welcome.wrapper {
+	padding: 0 0 5px;
+	margin: 0 auto 20px auto;
+}
+
+div#welcome .shadowed.xl {
+	padding: 80px 0 15px 0;
+}
+
+div#welcome .shadowed.xl .framed {
+	width: 938px;
+	padding: 0;
+}
+
+div#welcome .shadowed.xl .hide {
+	display: none;
+}
+
+div#welcome .shadowed.xl .framed ul {
+	height: 360px;
+	overflow: hidden;
+}
+
+div#welcome .shadowed.xl .framed li {
+	position: relative;
+	display: block;
+	height: 202px;
+	padding: 119px 39px 39px;
+	width: 860px;
+}
+
+div#welcome .shadowed.xl .framed h1, div#welcome .shadowed.xl .framed h2 {
+	padding: 0 320px 0 0;
+	text-align: left;
+}
+
+div#welcome .framed p {
+	padding: 0 340px 0 0;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+div#welcome .framed p.nav {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  margin: 0;
+}
+
+div#welcome .framed a.next,
+div#welcome .framed a.first {
+	width: 160px;
+	height: 40px;
+	background: #FFF url(../img/layout/welcome-gospin-bttn.png) no-repeat;
+	margin: 20px 0 0 0;
+}
+
+div#welcome .framed a.next {
+	background-position: 0 0;
+}
+
+div#welcome .framed a.next:hover {
+	background-position: 0 -40px;
+}
+
+div#welcome .framed a.first {
+	background-position: 0 -80px;
+}
+
+div#welcome .framed a.first:hover {
+	background-position: 0 -120px;
+}
+
+div#welcome .framed img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+/* welcome /*/
+
+
+/* featured-work */
+div#featured-work {
+	margin: 0 0 20px 0;	
+}
+
+div#featured-work ul.items li {
+	float: left;
+	width: 320px;
+}
+
+div#featured-work ul.items h3 {
+	font-size: 18px;
+	line-height: 20px;
+	text-align: center;
+	text-shadow: 0 1px 0 #FFF;
+}
+
+div#featured-work ul.items h3 a,
+div#featured-work ul.items h3 a:visited,
+div#featured-work ul.items h3 a:hover {
+	color: #166873;
+}
+
+div#featured-work ul.items p {
+	margin: 8px 0 0 0;
+}
+
+div#featured-work ul.items p a {
+	display: block;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	text-shadow: 0 1px 1px #02485B;
+	height: 22px;
+	line-height: 20px;
+	width: 100px;
+	font-size: 11px;
+	letter-spacing: 1px;
+	color: #FFF;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	background: transparent url(../img/layout/label-turquoise.png) top center no-repeat;
+	margin: 0 auto;
+}
+/* featured-work /*/
+
+
+/* overview */
+div#overview {
+	clear: both;
+	padding: 0;
+	margin: 0 auto 40px auto;
+}
+
+div#overview h2 {
+	font-size: 32px;
+	line-height: 40px;
+	letter-spacing: -0.5px;
+	margin: 0 0 20px 0;
+}
+
+div#overview div p {
+	font-size: 16px;
+}
+
+div#overview p:last-child {
+	margin: 0;
+}
+
+div#overview div p a {
+	display: block;
+	text-align: center;
+}
+/* overview /*/
+
+
+/* digest */
+div#digest {
+	margin: 0 0 60px;
+}
+
+div#digest div.wrapper {
+	padding: 40px 0 20px 0;
+}
+
+div#blog-container {
+	width: 640px;
+	float: left;
+}
+
+div#blog-container dl {
+	padding: 29px 19px 19px 19px;
+}
+
+div#blog-container dl dt {
+	text-align: center;
+	font-size: 16px;
+}
+
+div#blog-container dl dd {
+	padding: 0 0 14px 0;
+	margin: 0 0 15px;
+	border-bottom: 1px dotted #D9D9D9;
+	color: #808080;
+	font-style: italic;
+	text-align: center;
+}
+
+div#blog-container dl dd:last-child {
+	border-bottom: 1px dotted #FFF;
+	margin: 0;
+}
+
+div#elsewhere-container {
+	float: left;
+}
+
+div#elsewhere-container ul {
+	width: 260px;
+}
+
+div#elsewhere-container li.flickr h3 {
+	position: absolute;
+	top: 0;
+	left: -9999px;
+}
+
+div#elsewhere-container li.flickr p.framed {
+	margin: 0;
+	padding: 9px;
+	width: auto;
+}
+
+div#elsewhere-container li.flickr p a {
+	height: 160px;
+	width: 280px;
+	overflow: hidden;
+	display: block;
+}
+
+div#elsewhere-container li.flickr p a img {
+	margin: -32% -32%;
+}
+
+div#elsewhere-container li.twitter .framed {
+	/* height: 145px; */
+}
+/* digest /*/
