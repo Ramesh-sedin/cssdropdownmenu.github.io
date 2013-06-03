@@ -6,7 +6,7 @@
 	height:400px;
 	margin:0 auto;
 	z-index:100;
-	background-image: url(bg.png);
+	background-image: url(./bg.png);
 }
 * html #wowslider-container{
 	background-image: none;
@@ -47,13 +47,13 @@
 	margin-left: 0; 
 	width:20px;
 	height:20px;
-	background: url(bullet.png) right top;
+	background: url(./bullet.png) right top;
 	float: left; 
 	text-indent: -1000px; 
 	z-index:40;
 }
 * html #wowslider-container .ss_bullets a {
-	background-image: url(bullet.gif);
+	background-image: url(./bullet.gif);
 }
 #wowslider-container .ss_bullets a.ss_selbull{
 	background-position: left top;
@@ -68,10 +68,10 @@
 	z-index:1001;
 	height: 75px;
 	width: 60px;
-	background-image: url(arrows.png);
+	background-image: url(./arrows.png);
 }
 * html #wowslider-container a.ss_next, * html #wowslider-container a.ss_prev{
-	background-image: url(arrows.gif);
+	background-image: url(./arrows.gif);
 	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
 }
 #wowslider-container a.ss_next{
